@@ -1,4 +1,4 @@
-export const Latn = [
+export const Lat = [
   {
     num: 1,
     upper: { c: 'A', code: 0x0041, name: 'Latin capital letter A' },

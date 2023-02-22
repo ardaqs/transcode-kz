@@ -1,4 +1,4 @@
-export const Cyrl = [
+export const Cyr = [
   {
     num: 1,
     upper: { c: 'А', code: 0x0410, name: 'Cyrillic capital letter A' },
