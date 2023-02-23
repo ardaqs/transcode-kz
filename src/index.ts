@@ -4,14 +4,14 @@ import { Lat } from './lat';
 import { Cyr2Lat } from './cyr2lat';
 import { Lat2Cyr } from './lat2cyr';
 
-const transcode = (s: string, direction: string = 'cyr2lat', parseJson: boolean = false) => {
-  return parseJson ? transcodeJson(s, direction) : transcodeString(s, direction);
+const transcode = (s: string, direction: string = 'cyr2lat', parseJson: boolean = false, indent: number = 2) => {
+  return parseJson ? transcodeJson(s, direction, indent) : transcodeString(s, direction);
 }
 
-function transcodeJson(s: string, direction: string): string {
+function transcodeJson(s: string, direction: string, indent: number): string {
   const obj = JSON.parse(s);
   transcodeObject(obj, direction); // mutation!
-  return JSON.stringify(obj);
+  return JSON.stringify(obj, null, indent);
 }
 
 function transcodeObject(obj: any, direction: string) {
