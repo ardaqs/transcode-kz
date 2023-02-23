@@ -37,5 +37,5 @@
     "url": "https://github.com/ardaqs/transcode-kz/issues"
   },
   "homepage": "https://github.com/ardaqs/transcode-kz#readme",
-  "keywords": ["kazakh", "cyrillic", "latin", "convert", "transcode", "text", "encoding"]
+  "keywords": ["kazakh", "cyrillic", "latin", "convert", "transcode", "text", "json", "encoding"]
 }

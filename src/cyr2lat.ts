@@ -1,4 +1,4 @@
-export const Cyr2Lat = new Map([
+export const Cyr2Lat = new Map<string, string>([
   [ 'А', 'A' ], [ 'а', 'a' ],
   [ 'Ә', 'Ä' ], [ 'ә', 'ä' ],
   [ 'Б', 'B' ], [ 'б', 'b' ],
