@@ -1,7 +1,7 @@
 {
   "name": "transcode-kz",
   "version": "1.0.2",
-  "description": "Transcoding Kazakh from Cyrillic to Latin",
+  "description": "A library for transcoding Kazakh between Cyrillic and Latin encodings",
   "author": "Ardak Saduakassov",
   "license": "MIT",
   "type": "module",
@@ -11,7 +11,8 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "main": "./dist/transcode-kz.umd.cjs",
   "module": "./dist/transcode-kz.js",
