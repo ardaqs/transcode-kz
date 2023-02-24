@@ -52,3 +52,7 @@ const dstJson = transcodeJson(srcJson);
 ## License
 
 [LICENSE (MIT)](LICENSE)
+
+## See also
+
+* [transcode-kz-cli](https://www.npmjs.com/package/transcode-kz-cli) &nbsp;&nbsp; – Command line utility for transcoding Kazakh between Cyrillic and Latin encodings.
