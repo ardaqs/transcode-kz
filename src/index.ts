@@ -1,8 +1,8 @@
-import { Cyr } from './cyr';
-import { Lat } from './lat';
+import { cyr } from './cyr';
+import { lat } from './lat';
 
-import { Cyr2Lat } from './cyr2lat';
-import { Lat2Cyr } from './lat2cyr';
+import { cyr2lat } from './cyr2lat';
+import { lat2cyr } from './lat2cyr';
 
 /**
  * Transcodes a plain text.
@@ -11,7 +11,7 @@ import { Lat2Cyr } from './lat2cyr';
  * @returns transcoded text.
  */
 const transcodeText = (text: string, direction: string = 'cyr2lat') => {
-  const map = direction === 'lat2cyr' ? Lat2Cyr : Cyr2Lat;
+  const map = direction === 'lat2cyr' ? lat2cyr : cyr2lat;
   let res = '';
   for (const c of text) {
     const r = map.get(c);
@@ -44,4 +44,4 @@ function transcodeObject(obj: any, direction: string) {
   }
 }
 
-export { Cyr, Lat, Cyr2Lat, Lat2Cyr, transcodeText, transcodeJson }
+export { cyr, lat, cyr2lat, lat2cyr, transcodeText, transcodeJson }

@@ -1,4 +1,4 @@
-export const Lat2Cyr = new Map<string, string>([
+export const lat2cyr = new Map<string, string>([
   [ 'A', 'А' ], [ 'a', 'а' ],
   [ 'Ä', 'Ә' ], [ 'ä', 'ә' ],
   [ 'B', 'Б' ], [ 'b', 'б' ],
