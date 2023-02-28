@@ -1,5 +1,9 @@
 # @ardaqs/transcode-kz ChangeLog
 
+## v1.1.1
+
+- Export types
+
 ## v1.1.0
 
 - Interfaces

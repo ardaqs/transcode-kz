@@ -1,3 +1,5 @@
+import { Character, Letter } from './common'; 
+
 import { cyr } from './cyr';
 import { lat } from './lat';
 
@@ -44,4 +46,5 @@ function transcodeObject(obj: any, direction: string) {
   }
 }
 
-export { cyr, lat, cyr2lat, lat2cyr, transcodeText, transcodeJson }
+export type { Character, Letter };
+export { cyr, lat, cyr2lat, lat2cyr, transcodeText, transcodeJson };
